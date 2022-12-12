@@ -74,6 +74,7 @@ main {
 /* footer */
 footer {
     display: flex;
+    max-height: 85px;
     text-align: center;
     justify-content: space-between;
     line-height: 2.5;
@@ -87,22 +88,25 @@ footer {
 }
 
 .left-footer {
+    min-height: 85px;
+    max-height: 100%;
     display: flex;
     gap: 10px;
     background-color: #222222;
 }
 
 .central-footer {
+    min-height: 85px;
+    max-height: 100%;
     margin: 0 auto;
     display: flex;
     background-color: #222222;
 }
 
 .right-footer {
-
-    height: 100%;
+    min-height: 85px;
+    max-height: 100%;
     color: red;
-
     background-color: #4A4A4A;
 }
 
