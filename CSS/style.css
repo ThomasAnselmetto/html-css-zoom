@@ -112,8 +112,12 @@ footer {
 
 footer .icons i {
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
+footer .icons i:hover {
+    color: aqua;
+}
 
 .arrow {
     line-height: 4;
